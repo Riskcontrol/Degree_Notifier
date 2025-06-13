@@ -80,7 +80,7 @@ for _, r in df.iterrows():
     if pd.isna(r["TAT DUE"]):
         continue
     days_remaining = (r["TAT DUE"] - today).days
-    if days_remaining in {30, 14, 1}:
+    if days_remaining in {76,79,30, 14, 1}:
         send_reminder(r, days_remaining)
 
 print("TAT check complete")
