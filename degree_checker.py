@@ -40,7 +40,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 SENDER = os.environ.get("USER_EMAIL")   # same pattern you used earlier
 PASSWORD = os.environ.get("USER_PASSWORD")
-TARGET = "officeadmin@riskcontrolnigeria.com"
+TARGET = "abbajanet1@gmail.com"
 
 if not SENDER or not PASSWORD:
     raise EnvironmentError("USER_EMAIL or USER_PASSWORD not set")
