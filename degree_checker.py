@@ -135,7 +135,7 @@ def send_reminder(row, days_left):
 
     subject = f"Turnaround time alert – {days_left} day(s) left for {name}"
     body = f"""
-    Dear Admin,
+    Dear Admin(MR Idris),
 
     Verification for {name} (client: {client}) was logged on {received}.
     The three-month turnaround deadline is {due}, which is in {days_left} day(s).
