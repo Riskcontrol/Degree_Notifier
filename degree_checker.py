@@ -122,7 +122,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 SENDER = os.environ.get("USER_EMAIL")
 PASSWORD = os.environ.get("USER_PASSWORD")
-TARGET = "nofiumoruf17@gmail.com"  # Change this if you want dynamic recipient abbajanet1@gmail.com
+TARGET = "abbajanet1@gmail.com"  # Change this if you want dynamic recipient abbajanet1@gmail.com
 
 if not SENDER or not PASSWORD:
     raise EnvironmentError("Missing USER_EMAIL or USER_PASSWORD in environment variables")
